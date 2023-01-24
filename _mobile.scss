@@ -1,0 +1,214 @@
+@media (max-width: 767px) {
+    .container {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .header {
+        padding-top: 32px;
+
+        &_logo_img {
+            width: 99px;
+        }
+
+        &_input {
+            display: none;
+        }
+
+        &_nav {
+            display: none;
+        }
+        &_nav_mobile {
+            display: flex;
+            gap: 32px;
+            align-items: center;
+        }
+    }
+
+    .main {
+        &_h1 {
+            font-size: 48px;
+            line-height: 59px;
+            text-align: center;
+        }
+
+        &_text {
+            font-size: 16px;
+            line-height: 32px;
+            text-align: center;
+        }
+
+        &_link {
+            font-size: 14px;
+            line-height: 24px;
+            display: flex;
+            justify-content: center;
+        }
+    }
+
+    .for_h2 {
+        font-size: 24px;
+        line-height: 29px;
+    }
+
+    .for {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 16px;
+
+        &_item {
+            grid-column: 1 / -1;
+            height: 375px;
+            font-size: 28px;
+            line-height: 34px;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+
+            &_big {
+                height: 244px;
+            }
+        }
+    }
+
+    .special_h2 {
+        font-size: 24px;
+        line-height: 29px;
+        text-align: center
+    }
+
+    .special_content {
+        justify-content: center;
+    }
+
+    .special_h3 {
+        font-size: 18px;
+        line-height: 22px;
+        margin-bottom: 10px;
+    }
+
+    .special_text {
+        margin-bottom: 8px;
+    }
+
+    .special_price_2 {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .special_price_1 {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .product_box {
+        margin-bottom: 32px;
+        margin-top: 36px;
+    }
+
+    .product_h2 {
+        font-size: 24px;
+        line-height: 29px;
+        text-align: center
+    }
+
+    .product_h3 {
+        font-size: 18px;
+        line-height: 22px;
+        margin-top: 8px;
+    }
+
+    .product_content {
+        gap: 32px;
+        margin-bottom: 36px;
+        justify-content: center;
+    }
+
+    .product_text {
+        margin: 4px 0 8px;
+    }
+
+    .product_price {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .product_link {
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer {
+        padding-bottom: 32px;
+        
+        &_logo {
+            display: none;
+        }
+        &_content {
+            justify-content: center;
+            gap: 34px;
+        }
+        &_center {
+            gap: 100px;
+        }
+    }
+
+    .catalog_box {
+        margin: 32px 0;
+    }
+
+    .catalog_menu {
+        justify-content: flex-start;
+        gap: 16px;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .order {
+        &_box {
+            gap: 48px;
+            justify-content: center;
+        }
+        &_content_left_first {
+            margin-bottom: 24px;
+        }
+        &_menu {
+            display: none;
+        }
+        &_left {
+            max-width: 343px;
+            border-top: 0.5px solid #CACDD8;
+        }
+        &_left_img {
+            display: none;
+        }
+        &_text_left h3 {
+            font-size: 18px;
+            line-height: 22px;
+        }
+        &_text_p {
+            margin: 8px 0 15px;
+            font-size: 12px;
+            line-height: 15px;
+        }
+        &_price_left {
+            font-size: 12px;
+            line-height: 15px;
+        }
+        &_btn {
+            margin-top: 32px;
+            flex-wrap: nowrap;
+            justify-content: center;
+        }
+        &_button {
+            max-width: 166px;
+        }
+    }
+
+    .footer {
+        &_form {
+            align-items: center;
+        }
+    }
+}
+
